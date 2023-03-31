@@ -1,7 +1,7 @@
 html.black {
     filter: invert(1);
 }
-html.black img,html.black .share,html.black .vtag {
+html.black img,html.black video,html.black .share,html.black .vtag {
     filter: invert(1);
     color: #000;
 }

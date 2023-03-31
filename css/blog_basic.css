@@ -37,6 +37,9 @@
 .post .post-content img[alt="照片"]{
   width: 80%;
 }
+.post .post-content video{
+  width: 80%;
+}
 
 #ds-thread,#disqus_thread,#cloud-tie-wrapper {
   margin: 0 30px!important
