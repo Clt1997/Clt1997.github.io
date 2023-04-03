@@ -1,6 +1,9 @@
 html.black {
     filter: invert(1);
 }
+html.black .invert {
+    filter: invert(1);
+}
 html.black img,html.black video,html.black .share,html.black .vtag {
     filter: invert(1);
     color: #000;
@@ -84,6 +87,19 @@ i{
 
 .footer{
     user-select: none;
+}
+
+.footer .friend-links{
+    display: block;
+}
+
+.footer .friend-links span{
+    font-weight: bolder;
+}
+
+.footer .friend-links .link-item{
+    margin-left: 3px;
+    font-style: normal;
 }
 
 .sidebar .blog-links {
